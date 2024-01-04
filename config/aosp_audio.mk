@@ -22,8 +22,11 @@ PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/Alarm_Buzzer.ogg:$(TARGET_COPY_OUT_PRODUCT)/media/audio/alarms/Alarm_Buzzer.ogg \
     $(LOCAL_PATH)/Alarm_Rooster_02.ogg:$(TARGET_COPY_OUT_PRODUCT)/media/audio/alarms/Alarm_Rooster_02.ogg \
     $(LOCAL_PATH)/alarms/ogg/Barium.ogg:$(TARGET_COPY_OUT_PRODUCT)/media/audio/alarms/Barium.ogg \
+    $(LOCAL_PATH)/alarms/ogg/Breeze.ogg:$(TARGET_COPY_OUT_PRODUCT)/media/audio/alarms/Breeze.ogg \
+    $(LOCAL_PATH)/alarms/ogg/Daydream.ogg:$(TARGET_COPY_OUT_PRODUCT)/media/audio/alarms/Daydream.ogg \
     $(LOCAL_PATH)/alarms/ogg/Hassium.ogg:$(TARGET_COPY_OUT_PRODUCT)/media/audio/alarms/Hassium.ogg \
     $(LOCAL_PATH)/alarms/ogg/Scandium.ogg:$(TARGET_COPY_OUT_PRODUCT)/media/audio/alarms/Scandium.ogg \
+    $(LOCAL_PATH)/alarms/ogg/Sunrise.ogg:$(TARGET_COPY_OUT_PRODUCT)/media/audio/alarms/Sunrise.ogg \
     vendor/lineage/prebuilt/common/media/audio/alarms/Argon-old.ogg:$(TARGET_COPY_OUT_PRODUCT)/media/audio/alarms/Argon-old.ogg \
     vendor/lineage/prebuilt/common/media/audio/alarms/Carbon-old.ogg:$(TARGET_COPY_OUT_PRODUCT)/media/audio/alarms/Carbon-old.ogg \
     vendor/lineage/prebuilt/common/media/audio/alarms/Krypton-old.ogg:$(TARGET_COPY_OUT_PRODUCT)/media/audio/alarms/Krypton-old.ogg \
@@ -53,10 +56,12 @@ PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/notifications/Doink.ogg:$(TARGET_COPY_OUT_PRODUCT)/media/audio/notifications/Doink.ogg \
     $(LOCAL_PATH)/notifications/Drip.ogg:$(TARGET_COPY_OUT_PRODUCT)/media/audio/notifications/Drip.ogg \
     $(LOCAL_PATH)/notifications/Electra.ogg:$(TARGET_COPY_OUT_PRODUCT)/media/audio/notifications/Electra.ogg \
+    $(LOCAL_PATH)/notifications/FadeIn.ogg:$(TARGET_COPY_OUT_PRODUCT)/media/audio/notifications/FadeIn.ogg \
     $(LOCAL_PATH)/notifications/Fomalhaut.ogg:$(TARGET_COPY_OUT_PRODUCT)/media/audio/notifications/Fomalhaut.ogg \
     $(LOCAL_PATH)/notifications/Heaven.ogg:$(TARGET_COPY_OUT_PRODUCT)/media/audio/notifications/Heaven.ogg \
     $(LOCAL_PATH)/notifications/Merope.ogg:$(TARGET_COPY_OUT_PRODUCT)/media/audio/notifications/Merope.ogg \
     $(LOCAL_PATH)/notifications/moonbeam.ogg:$(TARGET_COPY_OUT_PRODUCT)/media/audio/notifications/moonbeam.ogg \
+    $(LOCAL_PATH)/notifications/NotificationXylophone.ogg:$(TARGET_COPY_OUT_PRODUCT)/media/audio/notifications/NotificationXylophone.ogg \
     $(LOCAL_PATH)/notifications/ogg/Adara.ogg:$(TARGET_COPY_OUT_PRODUCT)/media/audio/notifications/Adara.ogg \
     $(LOCAL_PATH)/notifications/ogg/Alya.ogg:$(TARGET_COPY_OUT_PRODUCT)/media/audio/notifications/Alya.ogg \
     $(LOCAL_PATH)/notifications/ogg/Antimony.ogg:$(TARGET_COPY_OUT_PRODUCT)/media/audio/notifications/Antimony.ogg \
@@ -99,7 +104,8 @@ PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/notifications/sirius.ogg:$(TARGET_COPY_OUT_PRODUCT)/media/audio/notifications/sirius.ogg \
     $(LOCAL_PATH)/notifications/Sirrah.ogg:$(TARGET_COPY_OUT_PRODUCT)/media/audio/notifications/Sirrah.ogg \
     $(LOCAL_PATH)/notifications/TaDa.ogg:$(TARGET_COPY_OUT_PRODUCT)/media/audio/notifications/TaDa.ogg \
-    $(LOCAL_PATH)/notifications/tweeters.ogg:$(TARGET_COPY_OUT_PRODUCT)/media/audio/notifications/tweeters.ogg
+    $(LOCAL_PATH)/notifications/tweeters.ogg:$(TARGET_COPY_OUT_PRODUCT)/media/audio/notifications/tweeters.ogg \
+    $(LOCAL_PATH)/notifications/WindChime.ogg:$(TARGET_COPY_OUT_PRODUCT)/media/audio/notifications/WindChime.ogg
 
 PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/Ring_Classic_02.ogg:$(TARGET_COPY_OUT_PRODUCT)/media/audio/ringtones/Ring_Classic_02.ogg \
@@ -164,11 +170,14 @@ PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/newwavelabs/TwirlAway.ogg:$(TARGET_COPY_OUT_PRODUCT)/media/audio/ringtones/TwirlAway.ogg \
     $(LOCAL_PATH)/newwavelabs/VeryAlarmed.ogg:$(TARGET_COPY_OUT_PRODUCT)/media/audio/ringtones/VeryAlarmed.ogg \
     $(LOCAL_PATH)/newwavelabs/World.ogg:$(TARGET_COPY_OUT_PRODUCT)/media/audio/ringtones/World.ogg \
+    $(LOCAL_PATH)/ringtones/AcousticGuitar.ogg:$(TARGET_COPY_OUT_PRODUCT)/media/audio/ringtones/AcousticGuitar.ogg \
     $(LOCAL_PATH)/ringtones/BOOTES.ogg:$(TARGET_COPY_OUT_PRODUCT)/media/audio/ringtones/BOOTES.ogg \
     $(LOCAL_PATH)/ringtones/CASSIOPEIA.ogg:$(TARGET_COPY_OUT_PRODUCT)/media/audio/ringtones/CASSIOPEIA.ogg \
     $(LOCAL_PATH)/ringtones/Eridani.ogg:$(TARGET_COPY_OUT_PRODUCT)/media/audio/ringtones/Eridani.ogg \
+    $(LOCAL_PATH)/ringtones/Fairyland.ogg:$(TARGET_COPY_OUT_PRODUCT)/media/audio/ringtones/Fairyland.ogg \
     $(LOCAL_PATH)/ringtones/FreeFlight.ogg:$(TARGET_COPY_OUT_PRODUCT)/media/audio/ringtones/FreeFlight.ogg \
     $(LOCAL_PATH)/ringtones/Lyra.ogg:$(TARGET_COPY_OUT_PRODUCT)/media/audio/ringtones/Lyra.ogg \
+    $(LOCAL_PATH)/ringtones/SpaceAge.ogg:$(TARGET_COPY_OUT_PRODUCT)/media/audio/ringtones/SpaceAge.ogg \
     $(LOCAL_PATH)/ringtones/ogg/Andromeda.ogg:$(TARGET_COPY_OUT_PRODUCT)/media/audio/ringtones/Andromeda.ogg \
     $(LOCAL_PATH)/ringtones/ogg/Aquila.ogg:$(TARGET_COPY_OUT_PRODUCT)/media/audio/ringtones/Aquila.ogg \
     $(LOCAL_PATH)/ringtones/ogg/ArgoNavis.ogg:$(TARGET_COPY_OUT_PRODUCT)/media/audio/ringtones/ArgoNavis.ogg \
