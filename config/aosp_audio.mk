@@ -178,7 +178,7 @@ PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/ringtones/FreeFlight.ogg:$(TARGET_COPY_OUT_PRODUCT)/media/audio/ringtones/FreeFlight.ogg \
     $(LOCAL_PATH)/ringtones/Lyra.ogg:$(TARGET_COPY_OUT_PRODUCT)/media/audio/ringtones/Lyra.ogg \
     $(LOCAL_PATH)/ringtones/SpaceAge.ogg:$(TARGET_COPY_OUT_PRODUCT)/media/audio/ringtones/SpaceAge.ogg \
-    $(LOCAL_PATH)/ringtones/The_big_adventure.ogg:$(TARGET_COPY_OUT_PRODUCT)/media/audio/ringtones/The_big_adventure.ogg \
+    $(LOCAL_PATH)/ringtones/Thebigadventure.ogg:$(TARGET_COPY_OUT_PRODUCT)/media/audio/ringtones/Thebigadventure.ogg \
     $(LOCAL_PATH)/ringtones/ogg/Andromeda.ogg:$(TARGET_COPY_OUT_PRODUCT)/media/audio/ringtones/Andromeda.ogg \
     $(LOCAL_PATH)/ringtones/ogg/Aquila.ogg:$(TARGET_COPY_OUT_PRODUCT)/media/audio/ringtones/Aquila.ogg \
     $(LOCAL_PATH)/ringtones/ogg/ArgoNavis.ogg:$(TARGET_COPY_OUT_PRODUCT)/media/audio/ringtones/ArgoNavis.ogg \
