@@ -91,5 +91,6 @@ PRODUCT_PACKAGES += \
 # Themes
 PRODUCT_PACKAGES += \
     LineageBlackTheme \
+    ImmersiveNavigationOverlay \
     ThemePicker \
     ThemesStub
