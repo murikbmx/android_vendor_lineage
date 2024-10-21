@@ -62,6 +62,7 @@ PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/notifications/Merope.ogg:$(TARGET_COPY_OUT_PRODUCT)/media/audio/notifications/Merope.ogg \
     $(LOCAL_PATH)/notifications/moonbeam.ogg:$(TARGET_COPY_OUT_PRODUCT)/media/audio/notifications/moonbeam.ogg \
     $(LOCAL_PATH)/notifications/NotificationXylophone.ogg:$(TARGET_COPY_OUT_PRODUCT)/media/audio/notifications/NotificationXylophone.ogg \
+    $(LOCAL_PATH)/notifications/Viber.ogg:$(TARGET_COPY_OUT_PRODUCT)/media/audio/notifications/Viber.ogg \
     $(LOCAL_PATH)/notifications/ogg/Adara.ogg:$(TARGET_COPY_OUT_PRODUCT)/media/audio/notifications/Adara.ogg \
     $(LOCAL_PATH)/notifications/ogg/Alya.ogg:$(TARGET_COPY_OUT_PRODUCT)/media/audio/notifications/Alya.ogg \
     $(LOCAL_PATH)/notifications/ogg/Antimony.ogg:$(TARGET_COPY_OUT_PRODUCT)/media/audio/notifications/Antimony.ogg \
