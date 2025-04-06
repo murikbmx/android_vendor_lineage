@@ -125,8 +125,7 @@ PRODUCT_PACKAGES += \
 # Lineage packages
 ifeq ($(PRODUCT_IS_ATV),)
 PRODUCT_PACKAGES += \
-    ExactCalculator \
-    Jelly
+    ExactCalculator
 endif
 
 ifeq ($(PRODUCT_IS_AUTOMOTIVE),)
@@ -136,8 +135,7 @@ PRODUCT_PACKAGES += \
 endif
 
 PRODUCT_PACKAGES += \
-    LineageSettingsProvider \
-    Updater
+    LineageSettingsProvider
 
 PRODUCT_COPY_FILES += \
     vendor/lineage/prebuilt/common/etc/init/init.lineage-updater.rc:$(TARGET_COPY_OUT_SYSTEM_EXT)/etc/init/init.lineage-updater.rc
