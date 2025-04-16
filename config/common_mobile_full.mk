@@ -35,4 +35,5 @@ PRODUCT_PACKAGES += \
 PRODUCT_PACKAGES += \
     fonts_customization.xml \
     FontLatoOverlay \
-    FontRubikOverlay
+    FontRubikOverlay \
+    FontInterOverlay
