@@ -127,10 +127,6 @@ PRODUCT_PACKAGES += \
     bootanimation.zip \
     bootanimation-dark.zip
 
-# Build Manifest
-PRODUCT_PACKAGES += \
-    build-manifest
-
 # Lineage packages
 ifeq ($(PRODUCT_IS_ATV),)
 PRODUCT_PACKAGES += \
