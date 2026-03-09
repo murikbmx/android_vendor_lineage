@@ -15,11 +15,6 @@ PRODUCT_PACKAGES += \
     Seedvault \
     Twelve
 
-ifneq ($(TARGET_EXCLUDES_AUDIOFX),true)
-PRODUCT_PACKAGES += \
-    AudioFX
-endif
-
 # Extra cmdline tools
 PRODUCT_PACKAGES += \
     unrar \
