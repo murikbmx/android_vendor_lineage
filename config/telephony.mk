@@ -13,6 +13,7 @@ PRODUCT_PACKAGES += \
 
 # Telephony packages
 PRODUCT_PACKAGES += \
+    messaging \
     Stk
 
 # Default ringtone
