@@ -18,8 +18,10 @@ PRODUCT_PACKAGES += \
     AvatarPicker \
     Backgrounds \
     Canvas \
-    Glimpse \
-    LatinIME
+    Glimpse
+
+# GboardWu (replaces LatinIME)
+$(call inherit-product-if-exists, vendor/gboard/gboard.mk)
 
 ifeq ($(PRODUCT_TYPE), go)
 PRODUCT_PACKAGES += \
